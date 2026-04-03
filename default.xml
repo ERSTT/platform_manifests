@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   -->
-  <remote name="aosp" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+  <remote name="aosp" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
   <default remote="aosp" revision="refs/tags/android-14.0.0_r27" sync-j="4"/>
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r27"/>
 
