@@ -17,7 +17,7 @@
     <remove-project name="platform/external/mockito" />
     <project name="platform/external/mockito" path="external/mockito" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
     <project name="platform/external/libmonet" path="external/libmonet" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
-    <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform_frameworks_native" />
     <project name="platform/frameworks/native" path="frameworks/native" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
     
     <remove-project name="platform/bionic" />
