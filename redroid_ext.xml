@@ -31,9 +31,6 @@
 
     <project name="rk/device/rockchip/rk3576/rk3576" path="device/rockchip/rk3576" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
-    <remove-project name="platform_frameworks_native" />
-    <project name="platform/frameworks/native" path="frameworks/native" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
-
     <remote name="ERSTT" fetch="https://github.com/ERSTT/" />
     <remove-project name="device_redroid" />
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="ERSTT" revision="redroid-14.0.0" />
