@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-      <remote name="aosp" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
-      <remote name="ohd" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
-      <remote name="rk" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
-      <remote name="rk29" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
-      <remote name="rk78_mirror" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
-      <remote name="rk_legacy" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+      <remote name="aosp" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
+      <remote name="ohd" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
+      <remote name="rk" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
+      <remote name="rk29" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
+      <remote name="rk78_mirror" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
+      <remote name="rk_legacy" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
 
     <remove-project name="platform/bionic" />
     <project name="platform/bionic" path="bionic" revision="a703d7f70d745c9303aaf981fd8a7a898fb33255" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
