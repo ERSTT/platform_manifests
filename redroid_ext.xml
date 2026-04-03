@@ -13,7 +13,8 @@
     <project name="platform/build/soong" path="build/soong" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
       <linkfile src="root.bp" dest="Android.bp"/>
       <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
-      
+    <project name="rk/hardware/rk29/bootctrl" path="hardware/rockchip/bootctrl" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
+
     <remove-project name="platform/bionic" />
     <project name="platform/bionic" path="bionic" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
