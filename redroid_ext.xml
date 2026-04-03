@@ -9,7 +9,7 @@
       <remote name="rk78_mirror" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
       <remote name="rk_legacy" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
     
-    <remove-project name="build/soong" />
+    <remove-project name="platform/build/soong" />
     <project name="platform/build/soong" path="build/soong" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
       <linkfile src="root.bp" dest="Android.bp"/>
       <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
