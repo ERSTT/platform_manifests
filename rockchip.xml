@@ -19,7 +19,7 @@
     <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk"/>
     -->
 
-    <remote name="rk" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+    <remote name="rk" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
 
     <remove-project name="platform/external/libdrm" />
     <project name="platform/external/libdrm" path="external/libdrm" revision="6f9ec765014d900e8f16a73bac4b8b653e13f4ae" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
