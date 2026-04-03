@@ -15,7 +15,7 @@
     <project name="rk/platform/vendor/rockchip/hardware/neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="rk" revision="9b1003ba4420dbc7c87ce161e67190335f1ebeff" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="5ccb5de43e61745c1c99773d3b14a974bfefd323" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
     <project name="rk/hardware/rk29/outputmanager" path="vendor/rockchip/hardware/interfaces/outputmanager" remote="rk" revision="d2da6fd6b86e45c503091003597e81c211429a64" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-    <project name="rk/device/rockchip/rk3576" path="device/rockchip/rk3576" remote="rk" revision="d4e35121ee6306be4dfcf0d423468d30c5f1a261" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+    <project name="rk/device/rockchip/rk3576/rk3576" path="device/rockchip/rk3576" remote="rk" revision="d4e35121ee6306be4dfcf0d423468d30c5f1a261" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <remove-project name="platform_frameworks_native" />
     <project name="platform/frameworks/native" path="frameworks/native" revision="7d5047bc508204a956c0cb2961775a25f947be04" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
 
