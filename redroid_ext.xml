@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- 
       <remote name="aosp" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
+    -->
       <remote name="ohd" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
       <remote name="rk" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
       <remote name="rk29" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
