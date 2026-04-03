@@ -24,7 +24,8 @@
 
     <remove-project name="platform/external/libdrm" />
     <project name="platform/external/libdrm" path="external/libdrm" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
-
+    
+    <remove-project name="device/google_car" />
     <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" revision="radxa_andorid14_rkr6" groups="rk" remote="rk" />
     <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
