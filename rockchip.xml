@@ -23,7 +23,6 @@
 
     <remove-project name="platform/external/libdrm" />
     <project name="platform/external/libdrm" path="external/libdrm" revision="6f9ec765014d900e8f16a73bac4b8b653e13f4ae" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
-    <!-- 
     <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="d1e5f22b022dc5936702338ef1cdcde8055550f3" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" />
     <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="8d49fb747922ee93e2eaa98cf13ebcfa09012961" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="rk/platform/vendor/rockchip/common/vpu" path="vendor/rockchip/common/vpu" remote="rk" revision="a6aa2b1e68c42f52076dc4204d44b27ca70c22ef" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
@@ -34,7 +33,7 @@
     <project name="rk/hardware/libgralloc/utgard_new" path="hardware/rockchip/libgralloc/utgard" remote="rk" revision="c30f25bc89f925860b48c20f93216784bfd3f1a6" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="rk/platform/vendor/rockchip/hardware/codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="rk" revision="607f89a1c6786e87e4276e16b94e28fe0bfb797b" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="linux/linux-rga" path="hardware/rockchip/librga" remote="rk29" revision="a5444901f6c0164ea1738af16b4991774db95be1" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-     -->
+
     <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="d509ab51770c544ed59962e5cd7c6671d27b688d" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <!-- Rockchip 的多媒体处理中间件 -->
     <!-- 
