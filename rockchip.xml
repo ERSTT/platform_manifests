@@ -24,7 +24,7 @@
     <remove-project name="platform/external/libdrm" />
     <project name="platform/external/libdrm" path="external/libdrm" revision="6f9ec765014d900e8f16a73bac4b8b653e13f4ae" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
     <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="d1e5f22b022dc5936702338ef1cdcde8055550f3" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" />
-    <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="8d49fb747922ee93e2eaa98cf13ebcfa09012961" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+    <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" remote="rk" revision="8d49fb747922ee93e2eaa98cf13ebcfa09012961" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="rk/platform/vendor/rockchip/common/vpu" path="vendor/rockchip/common/vpu" remote="rk" revision="a6aa2b1e68c42f52076dc4204d44b27ca70c22ef" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="rk/hardware/rk29/libbaseparameter" path="hardware/rockchip/libbaseparameter" remote="rk" revision="dbbb985f7b80fc0aca1258fd31ccea3ddaee4f92" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="rk/hardware/rk35/libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" remote="rk" revision="ac66dee8f07a028c390b642783cad1f684fca513" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
