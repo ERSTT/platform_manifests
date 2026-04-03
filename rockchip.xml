@@ -23,21 +23,21 @@
     <remote name="rk29" fetch="https://gitlab.com/rockchip_android14_rk3576/"/>
 
     <remove-project name="platform/external/libdrm" />
-    <project name="platform/external/libdrm" path="external/libdrm" revision="radxa_android14_rkr6" remote="rk" />
+    <project name="platform/external/libdrm" path="external/libdrm" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
-    <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" revision="radxa_android14_rkr6" remote="rk" />
-    <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" revision="radxa_android14_rkr6" remote="rk" />
+    <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" revision="radxa_andorid14_rkr6" groups="rk" remote="rk" />
+    <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
-    <project name="rk/hardware/rk29/libbaseparameter" path="hardware/rockchip/libbaseparameter" revision="radxa_android14_rkr6" remote="rk" />
-    <project name="rk/hardware/rk35/libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" revision="radxa_android14_rkr6" remote="rk" />
+    <project name="rk/hardware/rk29/libbaseparameter" path="hardware/rockchip/libbaseparameter" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
+    <project name="rk/hardware/rk35/libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
-    <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" revision="radxa_android14_rkr6" remote="rk" />
-    <project name="rk/hardware/libgralloc/midgard" path="hardware/rockchip/libgralloc/midgard" revision="radxa_android14_rkr6" remote="rk" />
-    <project name="rk/hardware/libgralloc/utgard_new" path="hardware/rockchip/libgralloc/utgard" revision="radxa_android14_rkr6" remote="rk" />
+    <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
+    <project name="rk/hardware/libgralloc/midgard" path="hardware/rockchip/libgralloc/midgard" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
+    <project name="rk/hardware/libgralloc/utgard_new" path="hardware/rockchip/libgralloc/utgard" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
-    <project name="rk/platform/vendor/rockchip/hardware/codec2" path="vendor/rockchip/hardware/interfaces/codec2" revision="radxa_android14_rkr6" remote="rk" />
-    <project name="linux/linux-rga" path="hardware/rockchip/librga" revision="radxa_android14_rkr6" remote="rk" />
-    <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" revision="radxa_android14_rkr6" remote="rk" />
+    <project name="rk/platform/vendor/rockchip/hardware/codec2" path="vendor/rockchip/hardware/interfaces/codec2" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
+    <project name="linux/linux-rga" path="hardware/rockchip/librga" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
+    <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
 
     <!-- Rockchip 的多媒体处理中间件 -->
     <!-- 
