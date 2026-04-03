@@ -16,6 +16,7 @@
     <project name="rk/hardware/rk29/bootctrl" path="hardware/rockchip/bootctrl" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
     <remove-project name="platform/external/mockito" />
     <project name="platform/external/mockito" path="external/mockito" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
+    <project name="platform/external/libmonet" path="external/libmonet" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
     
     <remove-project name="platform/bionic" />
     <project name="platform/bionic" path="bionic" revision="radxa_android14_rkr6" groups="rk" remote="rk" />
