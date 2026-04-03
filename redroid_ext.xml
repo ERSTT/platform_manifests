@@ -11,17 +11,12 @@
     <project name="platform/bionic" path="bionic" revision="a703d7f70d745c9303aaf981fd8a7a898fb33255" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
 
     <remove-project name="platform/hardware/interfaces" />
-    <project name="rk/platform/vendor/rockchip/hardware/codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="rk" revision="607f89a1c6786e87e4276e16b94e28fe0bfb797b" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="rk/platform/vendor/rockchip/hardware/neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="rk" revision="9b1003ba4420dbc7c87ce161e67190335f1ebeff" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" revision="25a163415991c55a4c0e59adaef34e2d4ab7910c" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
     <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="5ccb5de43e61745c1c99773d3b14a974bfefd323" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
     <project name="rk/hardware/rk29/outputmanager" path="vendor/rockchip/hardware/interfaces/outputmanager" remote="rk" revision="d2da6fd6b86e45c503091003597e81c211429a64" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="b196d05e02fb5d31353df216e94b63d02beb3af8" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
     <project name="rk/device/rockchip/rk3576" path="device/rockchip/rk3576" remote="rk" revision="d4e35121ee6306be4dfcf0d423468d30c5f1a261" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-    <!-- Rockchip 的多媒体处理中间件 -->
-    <!-- 
-    <project name="rk/platform/vendor/rockchip/hardware/rockit" path="vendor/rockchip/hardware/interfaces/rockit" remote="rk" revision="879ba298dbd8b53e88e9cfdcc26551e560e65c05" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-     -->
     
     <remove-project name="platform_frameworks_native" />
     <project name="platform/frameworks/native" path="frameworks/native" revision="7d5047bc508204a956c0cb2961775a25f947be04" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
