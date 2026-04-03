@@ -11,13 +11,11 @@
 
     <remove-project name="platform/bionic" />
     <project name="platform/bionic" path="bionic" revision="a703d7f70d745c9303aaf981fd8a7a898fb33255" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
-    <!-- 
     <remove-project name="platform/hardware/interfaces" />
     <project name="rk/platform/vendor/rockchip/hardware/neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="rk" revision="9b1003ba4420dbc7c87ce161e67190335f1ebeff" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="5ccb5de43e61745c1c99773d3b14a974bfefd323" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
     <project name="rk/hardware/rk29/outputmanager" path="vendor/rockchip/hardware/interfaces/outputmanager" remote="rk" revision="d2da6fd6b86e45c503091003597e81c211429a64" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
     <project name="rk/device/rockchip/rk3576" path="device/rockchip/rk3576" remote="rk" revision="d4e35121ee6306be4dfcf0d423468d30c5f1a261" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-    -->
     <remove-project name="platform_frameworks_native" />
     <project name="platform/frameworks/native" path="frameworks/native" revision="7d5047bc508204a956c0cb2961775a25f947be04" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
 
@@ -36,7 +34,7 @@
 
     <remote name="mtg" fetch="https://gitlab.com/MindTheGapps/" />
     <project path="vendor/redroid_ext" name="vendor_redroid_ext" groups="redroid" remote="redroid-rockchip" revision="master" />
-    <!-- 
+
     <include name="rockchip.xml" />
-    -->
+
 </manifest>
